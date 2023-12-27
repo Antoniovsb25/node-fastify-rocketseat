@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "react",
+    "description": "yes",
+    "duration": 180
+}
+
+
+###
+
+GET http://localhost:3333/videos?search=node
+
+###
+
+PUT http://localhost:3333/videos/d41f0cd0-7a16-42cf-93b5-3ec8bde358b7
+Content-Type: application/json
+
+{
+    "title": "nodejsnodejsnodejs",
+    "description": "nossoo",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/d41f0cd0-7a16-42cf-93b5-3ec8bde358b7
